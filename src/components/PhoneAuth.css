@@ -1,0 +1,129 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #8a2be2, #e8a3d3);
+  }
+  
+  .auth-card {
+    background:rgb(255 255 255 / 0.9);
+    border-radius: 12px;
+    padding: 30px 20px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .auth-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .mobile-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .auth-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .auth-card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .auth-card input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  input:focus {
+    border: 2px solid #3e41f8; /* Add a subtle shadow */
+    outline: none; /* Ensure no browser outline appears */
+  }
+  
+  .auth-card button {
+    width: 95%;
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: #4c4ff7;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .auth-card button:hover {
+    background:#2c2ff3;
+  }
+  
+  .otp-input {
+    width: 40px !important;
+    height: 40px;
+    margin: 5px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  .retry-button {
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #007bff;
+  }
+  .retry-button:hover {
+    background-color: #e6e6e6;
+  }
+  /* Styling for the Back Button */
+  .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color:rgb(79 70 229 / var(--tw-bg-opacity));
+    color: white;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+
+  /* Hover Effect for Back Button */
+  .back-button:hover {
+    transform: scale(1.1); /* Increase size on hover */
+    background-color: rgb(79 70 229 / var(--tw-bg-opacity));
+    border-color: #0056b3; /* Darker border */
+  }
+
+  /* Tooltip Text on Hover */
+  .back-button:hover::after {
+    content: "Go back to previous page";
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #f1f1f1;
+    border-top: 1px solid #ffffff;
+    padding-top: 5px;
+    font-style: italic;
+  }
